@@ -10,7 +10,12 @@
 </head>
 <body>
 
-
+    <h1>Menu principal del juego</h1>
     
+    <h3>lo siento estamos trabajando en ello</h3>
+    
+
+    <!-- Seccion de scripts -->
+    <script src="js/inicio.js" ></script>
 </body>
 </html>
