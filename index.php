@@ -16,6 +16,7 @@
     
 
     <!-- Seccion de scripts -->
+    <script src="js/mainLoop.js" ></script>
     <script src="js/inicio.js" ></script>
 </body>
 </html>

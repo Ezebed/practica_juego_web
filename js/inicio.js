@@ -1,3 +1,9 @@
 document.addEventListener('DOMContentLoaded', function(){
-    console.log("el script cargo correctamente");
+    inicio.startGame();
 }, false);
+
+var inicio = {
+    startGame: function () {
+        mainLoop.iterate();
+    }
+};
