@@ -8,5 +8,7 @@ var inicio = {
         mainLoop.iterate();
         // inicio de medidor de la ventana
         dimension.start();
+        // agregando rectangulos al DOM
+        let rectangle = new Rectangle(10,10,100,100);
     }
 };

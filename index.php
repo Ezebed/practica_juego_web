@@ -10,12 +10,11 @@
 </head>
 <body>
 
-    <h1>Menu principal del juego</h1>
-    
-    <h3>lo siento estamos trabajando en ello</h3>
+    <div id="game"></div>
     
 
     <!-- Seccion de scripts -->
+    <script src="js/rectangle.js" ></script>
     <script src="js/dimension.js" ></script>
     <script src="js/mainLoop.js" ></script>
     <script src="js/inicio.js" ></script>
