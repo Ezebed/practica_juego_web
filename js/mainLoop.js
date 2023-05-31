@@ -37,5 +37,7 @@ var mainLoop = {
     update (temporalRecord) {
         // aumentando los aps
         mainLoop.aps++
+        // actualizacion del teclado
+        keyboard.restart();
     }
 };

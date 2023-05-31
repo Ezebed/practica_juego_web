@@ -12,8 +12,8 @@
 
     <div id="game"></div>
     
-
     <!-- Seccion de scripts -->
+    <script src="js/keyboard.js" ></script>
     <script src="js/rectangle.js" ></script>
     <script src="js/dimension.js" ></script>
     <script src="js/mainLoop.js" ></script>
