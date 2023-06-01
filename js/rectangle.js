@@ -3,7 +3,7 @@ function Rectangle (coordX, coordY, width, height) {
     this.coordY = coordY;
     this.width = width;
     this.heigth = height;
-    this.id = "r" + coordX + coordY;
+    this.id = coordX + "r" + coordY;
     this.insertInDOM();
 }
 

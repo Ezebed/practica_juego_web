@@ -39,5 +39,7 @@ var mainLoop = {
         mainLoop.aps++
         // actualizacion del teclado
         keyboard.restart();
+        // actualizacion del mando
+        gamepad.update();
     }
 };
