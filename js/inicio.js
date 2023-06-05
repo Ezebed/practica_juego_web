@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 var inicio = {
     startGame: function () {
-        
+        // cargar archivos ajax
+        ajax.fileLoad("mapas/prado_1.json");
         // inicio de medidor de la ventana
         dimension.start();
         // agregando rectangulos al DOM

@@ -13,6 +13,7 @@
     <div id="game"></div>
     
     <!-- Seccion de scripts -->
+    <script src="js/ajax.js" ></script>
     <script src="js/gamepad.js" ></script>
     <script src="js/keyboard.js" ></script>
     <script src="js/rectangle.js" ></script>
