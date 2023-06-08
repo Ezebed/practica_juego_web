@@ -3,12 +3,13 @@
 $date = new DateTime();
 
 $jsFiles = array (
+    "js/Rectangle.js",
     "Point.js",
     "Sprite.js",
+    "Tile.js",
     "js/ajax.js",
     "js/gamepad.js",
     "js/keyboard.js",
-    "js/Rectangle.js",
     "js/dimension.js",
     "js/mainLoop.js",
     "js/inicio.js"
