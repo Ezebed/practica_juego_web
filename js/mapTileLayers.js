@@ -7,9 +7,9 @@ function MapTileLayers (layerData, zIndex, layerWidhth, layerHeight, tilePalette
     this.tiles = [];
 
     // recorrer la capa en filas
-    for (j = 0 , j < this.layerHeight ; j++) {
+    for (j = 0 ; j < this.layerHeight ; j++) {
         // recorrer la capa en columnas
-        for (k = 0 , k < this.layerWidhth, k++) {
+        for (k = 0 ; k < this.layerWidhth ; k++) {
             // obtenemos la id del tile actual
             let actualTileID = layerData.data[j + k * thid.layerWidhth];
 
