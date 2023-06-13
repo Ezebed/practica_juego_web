@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div id="game"></div>
+    <div id="game"> <div id="mapaJuego"></div> </div>
     
     
     <!-- Seccion de scripts -->

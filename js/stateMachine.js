@@ -1,7 +1,7 @@
 var stateMachine = {
     actualState: null,
     start: function () {
-
+        stateMachine.changeState(stateList.MAPAMUNDI);
     },
     changeState: function (newState) {
         // se ejecuta un metodo de dependiendo del estado
@@ -11,6 +11,7 @@ var stateMachine = {
             case stateList.MENU_INICIAL:
                 break;
             case stateList.MAPAMUNDI:
+                stateMachine.actualState = new StateWorldMap(stateList.MAPAMUNDI);
                 break;
             case stateList.NIVEL:
                 break;

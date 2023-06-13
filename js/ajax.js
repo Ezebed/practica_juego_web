@@ -1,5 +1,5 @@
 var ajax = {
-    fileLoad: function(route) {
+    fileLoad: function(route, manipulateData) {
         // se solicita una peticion de xml o html
         let petition = new XMLHttpRequest();
 
@@ -13,7 +13,7 @@ var ajax = {
             */
            if (petition.readyState == XMLHttpRequest.DONE) {
                 if (petition.status == 200) {
-                    console.log(JSON.parse(petition.responseText));
+                    manipulateData(JSON.parse(petition.responseText));
                 } else if (petition.status == 400){
                     console.log("error");
                 } else {
